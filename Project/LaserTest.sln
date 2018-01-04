@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C++ Express 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LaserTest", "LaserTest\LaserTest.vcproj", "{6AC1C0EC-D537-4E93-9358-BD09EBBE7146}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LaserTest", "LaserTest\LaserTest.vcxproj", "{6AC1C0EC-D537-4E93-9358-BD09EBBE7146}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
