@@ -20,17 +20,17 @@ void memFree(void *block);
 void *memClone(void *block, int size);
 
 // 'New Array'
-#define na(type_t, count) \
+#define na_(type_t, count) \
 	((type_t *)memCalloc(sizeof(type_t) * (count)))
 
 // 'New Block'
-#define nb(type_t) \
-	(na(type_t, 1))
+#define nb_(type_t) \
+	(na_(type_t, 1))
 
 // 'Clear Array'
-#define ca(block, type_t, count) \
+#define ca_(block, type_t, count) \
 	(memset((block), 0x00, sizeof(type_t) * (count)))
 
 // 'Clear Block'
-#define cb(block, type_t) \
-	(ca((block), type_t, 1))
+#define cb_(block, type_t) \
+	(ca_((block), type_t, 1))

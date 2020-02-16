@@ -4,7 +4,7 @@ LzPos_t MakeLzPos(double x, double y)
 {
 	LzPos_t i;
 
-	cb(&i, LzPos_t);
+	cb_(&i, LzPos_t);
 
 	i.X = x;
 	i.Y = y;
@@ -14,7 +14,7 @@ LzPos_t MakeLzPos(double x, double y)
 
 Lazer_t *CreateLazer(int color, autoList<LzPos_t> *track_bind)
 {
-	Lazer_t *i = nb(Lazer_t);
+	Lazer_t *i = nb_(Lazer_t);
 
 	i->Color = color;
 	i->Track = track_bind;
