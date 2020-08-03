@@ -1581,7 +1581,7 @@ static __inline void GetRawKey(uchar rawKey[32])
 }
 void DecryptResource(uchar *image, int size, int tweek)
 {
-	tweek = 12345; // todo: リソースの順序を入れ替えられる問題が未解決。
+	tweek = 12345; // HACK: リソースの順序を入れ替えられる問題が未解決。
 
 	uchar rawKey[32];
 	KEY_TABLE_TYPE key;
